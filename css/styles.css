@@ -1,0 +1,39 @@
+body{
+    margin: 50px;
+    background-color: #3f6307;
+    
+}
+
+header{
+    background-color: var(--header-color);
+}
+
+#logo {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#menu ul{
+    list-style: none;
+    text-align: center;
+    background-color: var(--header-color);
+    margin: 0;
+    padding: 25px;
+    color: var(--text-color);
+}
+
+#menu li{
+    display: inline;
+    padding: 10px;
+    font-family: "bebas";
+    font-size: x-large;
+}
+
+#menu li:hover{
+    background-color: #e5ae0a;
+    color: #07220f;
+}
+
