@@ -1,11 +1,23 @@
 body{
-    margin: 50px;
+    margin: 50px 150px;
     background-color: #3f6307;
     
 }
 
 header{
-    background-color: var(--header-color);
+    background-color: var(--color1-color);
+}
+
+footer{
+    background-color: var(--color2-color);
+    padding-left: 5%;
+    font-family: "bebas";
+}
+
+#main{
+    border-radius: 25px;
+    border: 1px #3f6307 solid;
+    overflow: hidden;
 }
 
 #logo {
@@ -16,24 +28,101 @@ header{
     padding: 20px 0;
 }
 
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+
 #menu ul{
     list-style: none;
     text-align: center;
-    background-color: var(--header-color);
+    background-color: var(--color1-color);
     margin: 0;
     padding: 25px;
-    color: var(--text-color);
+    color: var(--menu-text-color);
 }
 
 #menu li{
     display: inline;
     padding: 10px;
     font-family: "bebas";
-    font-size: x-large;
+    font-size: 30px;
 }
 
 #menu li:hover{
-    background-color: #e5ae0a;
+    background-color: var(--color2-color);
     color: #07220f;
 }
+
+#pic{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    border-radius: 50%;
+}
+
+#texto{
+    background-color: var(--color2-color);
+    font-family: "bebas";
+}
+
+#texto h1, #texto h2{
+    margin: 0;
+    padding: 20px 400px;
+    text-align: center;
+
+}
+
+#compra{
+    font-family: "bebas";
+    display: flex;
+    background-color: var(--color1-color);
+}
+
+#icon{
+    margin: 10px 90px;
+    text-align: justify;
+}
+
+#icon img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#produtos{
+    font-family: "bebas";
+    padding: 20px 0;
+    background-color: var(--color2-color);
+}
+
+#cervejas{
+    display: flex;
+    padding: 0 100px;
+}
+
+#cervejas h2{
+    margin: auto 20px;
+    text-align: justify;
+}
+
+#cervejas img{
+    width: 30%;
+    margin: 15px 10px 15px 0;
+    border-radius: 50%;
+}
+
+#faleconosco {
+    font-family: "bebas";
+    background-color: var(--color1-color);
+    text-align: center;
+    padding: 20px;
+}
+
+#faleconosco h1, #faleconosco h2{
+    margin: 0;
+}
+
 
