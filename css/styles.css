@@ -1,128 +1,164 @@
-body{
-    margin: 50px 150px;
-    background-color: #3f6307;
-    
+body {
+  margin: 50px 150px;
+  background-color: #3f6307;
 }
 
-header{
-    background-color: var(--color1-color);
+header {
+  background-color: var(--color1-color);
 }
 
-footer{
-    background-color: var(--color2-color);
-    padding-left: 5%;
-    font-family: "bebas";
+footer {
+  background-color: var(--color2-color);
+  padding-left: 10px;
+  font-family: "bebas";
 }
 
-#main{
-    border-radius: 25px;
-    border: 1px #3f6307 solid;
-    overflow: hidden;
+#main {
+  border-radius: 25px;
+  border: 1px #3f6307 solid;
+  overflow: hidden;
 }
 
 #logo {
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 0;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
 }
 
-#menu a{
+#menu a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu ul {
+  list-style: none;
+  text-align: center;
+  background-color: var(--color1-color);
+  margin: 0;
+  padding: 25px;
+  color: var(--menu-text-color);
+}
+
+#menu li {
+  display: inline;
+  padding: 10px;
+  font-family: "bebas";
+  font-size: 30px;
+}
+
+#menu li:hover {
+  background-color: var(--color2-color);
+  color: #07220f;
+}
+
+#pic {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+  border-radius: 50%;
+}
+
+#texto {
+  background-color: var(--color2-color);
+  font-family: "bebas";
+}
+
+#nossaempresa{
+    font-size: 65px;
+}
+
+#texto h1,
+#texto h2 {
+  margin: 0;
+  padding: 20px 400px;
+  text-align: center;
+}
+
+#compra {
+  font-family: "bebas";
+  display: flex;
+  background-color: var(--color1-color);
+}
+
+#icon {
+  margin: 10px auto;
+}
+
+#icon h1 {
+  font-size: 45px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#icon img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#produtos {
+  font-family: "bebas";
+  padding: 20px 0;
+  background-color: var(--color2-color);
+}
+
+#nossosprodutos {
+    text-align: center;
+    font-size: 65px;
+}
+
+#cervejas {
+  display: flex;
+  padding: 0 100px;
+}
+
+#cervejas h1, #cervejas h2 {
+  margin: auto 20px;
+  text-align: justify;
+}
+
+#cervejas img {
+  width: 30%;
+  margin: 15px 10px 15px 0;
+  border-radius: 50%;
+}
+
+#promocao{
+    background-color: var(--color1-color);
+    font-family: "bebas";
+    text-align: center;
+    padding: 30px 0;
+}
+
+#botao{
+    background-color: var(--color2-color);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    color: black;
-}
-
-#menu ul{
-    list-style: none;
-    text-align: center;
-    background-color: var(--color1-color);
-    margin: 0;
-    padding: 25px;
-    color: var(--menu-text-color);
-}
-
-#menu li{
-    display: inline;
-    padding: 10px;
-    font-family: "bebas";
     font-size: 30px;
-}
-
-#menu li:hover{
-    background-color: var(--color2-color);
-    color: #07220f;
-}
-
-#pic{
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 0;
-    border-radius: 50%;
-}
-
-#texto{
-    background-color: var(--color2-color);
     font-family: "bebas";
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
-#texto h1, #texto h2{
-    margin: 0;
-    padding: 20px 400px;
-    text-align: center;
-
-}
-
-#compra{
-    font-family: "bebas";
-    display: flex;
-    background-color: var(--color1-color);
-}
-
-#icon{
-    margin: 10px 90px;
-    text-align: justify;
-}
-
-#icon img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#produtos{
-    font-family: "bebas";
-    padding: 20px 0;
-    background-color: var(--color2-color);
-}
-
-#cervejas{
-    display: flex;
-    padding: 0 100px;
-}
-
-#cervejas h2{
-    margin: auto 20px;
-    text-align: justify;
-}
-
-#cervejas img{
-    width: 30%;
-    margin: 15px 10px 15px 0;
-    border-radius: 50%;
+#botao:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #faleconosco {
-    font-family: "bebas";
-    background-color: var(--color1-color);
-    text-align: center;
-    padding: 20px;
+  font-family: "bebas";
+  background-color: var(--color2-color);
+  text-align: center;
+  padding: 20px;
 }
 
-#faleconosco h1, #faleconosco h2{
-    margin: 0;
+#faleconosco h1,
+#faleconosco h2 {
+  margin: 0;
 }
-
-
